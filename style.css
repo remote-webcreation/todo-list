@@ -17,12 +17,14 @@ body {
     background-color: #a5b1c2;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     justify-content: center;
+    display: flex;
+    height: 100vh;
+    align-items: center;
     .container {
         width: 70%;
         max-width: 25rem;
         color: #f6f2f2;
         background-color: #1e272e;
-        margin: .625rem auto 0;
         border-radius: .625rem;
         padding: .9375rem .625rem;
         text-align: left;
