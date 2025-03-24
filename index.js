@@ -9,3 +9,22 @@ for (i= 0; i<listBtn.length; i++){
     listBtn[i].appendChild(span);
 };
 
+let close = document.getElementsByClassName("close");
+
+
+for (i=0; i<close.length; i++) {
+    let i;
+    close[i].onlick = function(){
+        let div = this.parentElement;
+        div.style.display = "none";
+    }
+}
+let btn = document.querySelector("ul");
+btn.addEventListener("click", function(ev) {
+    if(ev.target.tagName === "li") {
+        ev.target.classList.toggle("checked");
+    }
+}, false);
+
+
+
